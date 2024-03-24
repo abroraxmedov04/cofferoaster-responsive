@@ -6,5 +6,3 @@ elMenuBtn.addEventListener("click", () => {
   elHeaderNavBar.classList.toggle("show");
   document.body.classList.toggle("unscroll");
 });
-
-

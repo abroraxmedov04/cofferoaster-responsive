@@ -1,63 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- normalize -->
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>coferoaster</title>
-  </head>
 
-  <body>
-    <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>coferoaster</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner-wrapper">
+        <a href="./index.html" class="header__logo">
+          <img src="./images/logo.png" alt="logo" class="header__logo-image" />
+        </a>
+        <button class="header__menu-btn"></button>
+
+        <div class="header__navbar navbar">
+          <nav class="navbar__list">
+            <ul class="navbar-lists">
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">About us</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Create Your Plan</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
       <div class="container">
-        <div class="header__inner-wrapper">
-          <a href="./index.html" class="header__logo">
-            <img
-              src="./images/logo.png"
-              alt="logo"
-              class="header__logo-image"
-            />
-          </a>
-          <button class="header__menu-btn"></button>
-
-          <div class="header__navbar navbar">
-            <nav class="navbar__list">
-              <ul class="navbar-lists">
-                <li class="navbar__item">
-                  <a href="#" class="navbar__link">Home</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="#" class="navbar__link">About us</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="#" class="navbar__link">Create Your Plan</a>
-                </li>
-              </ul>
-            </nav>
+        <div class="hero__inner-wrapper">
+          <div class="hero__content">
+            <h1 class="hero__title">Great coffee made simple.</h1>
+            <p class="hero__description">
+              Start your mornings with the world’s best coffees. Try our
+              expertly curated artisan coffees from our best roasters
+              delivered directly to your door, at your schedule.
+            </p>
+            <button class="hero__create-plan">Create your plan</button>
           </div>
         </div>
       </div>
-    </header>
-    <main class="main">
-      <section class="hero">
-        <div class="container">
-          <div class="hero__inner-wrapper">
-            <div class="hero__content">
-              <h1 class="hero__title">Great coffee made simple.</h1>
-              <p class="hero__description">
-                Start your mornings with the world’s best coffees. Try our
-                expertly curated artisan coffees from our best roasters
-                delivered directly to your door, at your schedule.
-              </p>
-              <button class="hero__create-plan">Create your plan</button>
-            </div>
-          </div>
+    </section>
+
+    <section class="collection-info">
+      <div class="container">
+        <div class="collection-info__inner-wrapper">
+          <h2 class="collection-info__title">our collection</h2>
+          <ul class="collectio-info__list">
+            <li class="collection-info__item products">
+              <img src="./images/product-image-default.png" alt="products-image" class="products__image" />
+              <div class="products__info">
+                <strong class="products__name"> Gran Espresso </strong>
+                <p class="products__desc">
+                  Light and flavorful blend with cocoa and black pepper for an
+                  intense experience
+                </p>
+              </div>
+            </li>
+            <li class="collection-info__item products">
+              <img src="./images/product-image-default.png" alt="products-image" class="products__image" />
+              <div class="products__info">
+                <strong class="products__name"> Gran Espresso </strong>
+                <p class="products__desc">
+                  Light and flavorful blend with cocoa and black pepper for an
+                  intense experience
+                </p>
+              </div>
+            </li>
+            <li class="collection-info__item products">
+              <img src="./images/product-image-default.png" alt="products-image" class="products__image" />
+              <div class="products__info">
+                <strong class="products__name"> Gran Espresso </strong>
+                <p class="products__desc">
+                  Light and flavorful blend with cocoa and black pepper for an
+                  intense experience
+                </p>
+              </div>
+            </li>
+            <li class="collection-info__item products">
+              <img src="./images/product-image-default.png" alt="products-image" class="products__image" />
+              <div class="products__info">
+                <strong class="products__name"> Gran Espresso </strong>
+                <p class="products__desc">
+                  Light and flavorful blend with cocoa and black pepper for an
+                  intense experience
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
-      </section>
-    </main>
-    <footer class="footer"></footer>
-    <script src="./js/main.js"></script>
-  </body>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"></footer>
+  <script src="./js/main.js"></script>
+</body>
+
 </html>
